@@ -12,14 +12,13 @@ export default function Header() {
                     MyApp
                 </div>
 
-                {/* Navigation Links */}
+
                 <nav className="space-x-6">
                     <a href="#" className="text-gray-300 hover:text-white">Home</a>
                     <a href="#" className="text-gray-300 hover:text-white">Friends</a>
                     <a href="#" className="text-gray-300 hover:text-white">Chat</a>
                 </nav>
 
-                {/* Profile Button or Login (Placeholder) */}
                 <div>
                     <button className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">
                         Profile

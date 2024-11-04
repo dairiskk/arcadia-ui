@@ -4,8 +4,10 @@
 export default function LoginComponent() {
 
 
+
+
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-900">
+        <div className="min-h-screen flex items-center justify-center ">
             <div className="max-w-md w-full bg-gray-800 p-8 border border-gray-700 rounded-lg shadow-md">
                 <h2 className="text-2xl font-semibold text-center text-white">Sign In</h2>
                 <p className="text-center text-gray-400 mb-6">Welcome back! Please login to your account.</p>
