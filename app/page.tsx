@@ -6,10 +6,10 @@ import Header from "@/components/header";
 import LandingPage from "@/components/landing-page";
 
 export default function Home() {
-  let isLoggedIn = false;
+  let isLoggedIn = true;
 
   return (
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto 4">
       {isLoggedIn && <Header />}
       {!isLoggedIn && <LoginComponent />}
       {isLoggedIn && <LandingPage />}
